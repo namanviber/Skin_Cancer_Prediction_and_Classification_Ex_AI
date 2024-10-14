@@ -1,0 +1,4 @@
+.venv/
+SkinCancerDetection_VGG19_Model.keras
+Training History/
+__pycache__/
