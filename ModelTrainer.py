@@ -152,8 +152,8 @@ class ModelTrainer():
             1. callback_list - List of all callbacks registered for the model.
         '''
         
-        filepath = './' + ModelName + '.keras'
-        print("Model Checkpoint (.h5 file) Path:", filepath)
+        filepath = './Models/' + ModelName + '.keras'
+        print("Model Checkpoint (.Keras file) Path:", filepath)
 
         Model_Check_Point = ModelCheckpoint(filepath, 
                                      monitor = 'val_loss', 

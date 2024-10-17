@@ -70,8 +70,8 @@ class dataUtils():
             NONE
         '''
         
-        display(Markdown('<br>'))
-        display(Markdown(textToDisplay))
+        display(Markdown('<br>')) # type: ignore
+        display(Markdown(textToDisplay)) # type: ignore
 
     
     def GetLabelledSkinCancerData(self):
